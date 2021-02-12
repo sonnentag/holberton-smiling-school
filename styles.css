@@ -9,6 +9,7 @@ button:hover, button:active {
 }
 
 body {
+  font-family: 'Source Sans Pro';
   color: var(--color-white);
   background-color: var(--color-grey);
 }
@@ -16,6 +17,11 @@ body {
 #hero {
   background: url(images/pic_1.jpg) center 0 no-repeat;
   background-size: cover;
+  height: 1092px;
+}
+
+.rounded-pill {
+  background-color: var(--color-purple);
 }
 
 #testimonial {
