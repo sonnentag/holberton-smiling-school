@@ -1,0 +1,24 @@
+:root {
+  --color-grey: #676767;
+  --color-white: #FFFFFF;
+}
+
+button:hover, button:active {
+	opacity: 0.9;
+}
+
+body {
+  color: var(--color-white);
+  background-color: var(--color-grey);
+  background: url(images/pic_1.jpg) center 0 no-repeat;
+  background-size: cover;
+}
+
+#hero {
+}
+
+ul {
+  list-style-type: none;
+}
+
+$('.navbar-toggle').focus(function () { $.addClass('border border-warning'); })
