@@ -1,6 +1,7 @@
 :root {
   --color-grey: #676767;
   --color-white: #FFFFFF;
+  --color-purple: #C271FF;
 }
 
 button:hover, button:active {
@@ -10,11 +11,25 @@ button:hover, button:active {
 body {
   color: var(--color-white);
   background-color: var(--color-grey);
+}
+
+#hero {
   background: url(images/pic_1.jpg) center 0 no-repeat;
   background-size: cover;
 }
 
-#hero {
+#testimonial {
+  background-color: var(--color-purple);
+}
+
+.card-img {
+  height: 160px;
+  width: 160px;
+}
+
+.card-img-top {
+  height: 160px;
+  width: 160px;
 }
 
 ul {
