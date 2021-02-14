@@ -36,6 +36,12 @@ footer {
   background-size: cover;
 }
 
+.crshero {
+  background-color: var(--color-grey);
+  background: url(images/pic_3.jpg) center 0 no-repeat;
+  background-size: cover;
+}
+
 .profiles {
 }
 
