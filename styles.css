@@ -1,4 +1,6 @@
 :root {
+  --color-black: #071629;
+  --color-charcoal: rgba(7, 22, 41, 0.501584);
   --color-grey: #676767;
   --color-white: #FFFFFF;
   --color-purple: #C271FF;
@@ -8,16 +10,27 @@ button:hover, button:active {
 	opacity: 0.9;
 }
 
-body {
+html,body {
+  height: 100%
   font-family: 'Source Sans Pro';
-  color: var(--color-white);
-  background-color: var(--color-grey);
 }
 
-#hero {
+body {
+  color: var(--color-white);
+}
+
+footer {
+  background-color: var(--color-black);
+  height: 140px;
+}
+
+.hero {
+  background-color: var(--color-grey);
   background: url(images/pic_1.jpg) center 0 no-repeat;
   background-size: cover;
-  height: 1092px;
+}
+
+.profiles {
 }
 
 .rounded-pill {
@@ -26,6 +39,28 @@ body {
 
 #testimonial {
   background-color: var(--color-purple);
+  color: var(--color-white);
+}
+
+#membership {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.tinythumb {
+  height: 30px;
+  width: 30px;
+}
+.tutorials {
+  background-color: var(--color-white);
+  height: 100%;
+  color: var(--color-black);
+}
+
+#videos {
+  background-color: var(--color-white);
+  height: 100%;
+  color: var(--color-black);
 }
 
 .card-img {
@@ -42,4 +77,13 @@ ul {
   list-style-type: none;
 }
 
-$('.navbar-toggle').focus(function () { $.addClass('border border-warning'); })
+.purple {
+  color: var(--color-purple);
+}
+
+button {
+margin-bottom: 140px;
+filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+}
+
+$('.navbar-toggle').focus(function () { $.addClass('border border-warning'); });
