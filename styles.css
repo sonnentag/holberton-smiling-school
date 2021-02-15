@@ -49,6 +49,11 @@ footer {
   background-color: var(--color-purple);
 }
 
+.searchbar {
+  background-color: var(--color-purple);
+  color: var(--color-white);
+}
+
 #testimonial {
   background-color: var(--color-purple);
   color: var(--color-white);
