@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
+<html lang="en" dir="ltr"><head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
         <title>Get schooled</title>
@@ -8,87 +6,97 @@
 	<link rel="icon" type="image/png" href="images/favicon.png">
 
 	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Coiny&amp;display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
 
 	<!-- Styles -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" href="holberton_school-icon/styles.css">
 	<link rel="stylesheet" href="styles.css">
 
-    </head>
+    <script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script></head>
     <body>
+      <wrapper class="d-flex flex-column">
 
-      <!-- Hero -->
-      <div class="crshero">
-        <div class="navbar-container pb-5">
-          <nav class="navbar navbar-expand-md">
-            <button class="navbar-toggler d-inline d-sm-none collapsed" type="button" data-toggle="collapse" data-target="#navcontent">
-              <span class="my-auto navbar-toggler-icon">
-                <img src="images/menu_icon.svg"/>
-              </span>
-            </button>
-            <a class="navbar-brand">
-              <img class="d-inline" src="images/smile_icon.svg"/>
-              <img class="d-inline" src="images/text_logo.svg"/>
-            </a>
-            <div class="text-center navbar-expand-md center ml-auto">
-              <ul class="navbar-nav navbar-collapse collapse" id="navcontent">
-                <li>
-                  <a class="text-white nav-item nav-link" href="#">COURSES</a>
-                </li>
-                <li>
-                  <a class="text-white nav-item nav-link" href="#">PRICING</a>
-                </li>
-                <li>
-                  <a class="text-white nav-item nav-link" href="#">LOGIN</a>
-                </li>
-              </ul>
+        <!-- Hero -->
+        <div class="crshero">
+          <div class="navbar-container pb-5">
+            <nav class="navbar navbar-expand-md">
+              <button class="navbar-toggler d-inline d-sm-none collapsed" type="button" data-toggle="collapse" data-target="#navcontent">
+                <span class="my-auto navbar-toggler-icon">
+                  <img src="images/menu_icon.svg">
+                </span>
+              </button>
+              <a class="navbar-brand">
+                <img class="d-inline" src="images/smile_icon.svg">
+                <img class="d-inline" src="images/text_logo.svg">
+              </a>
+              <div class="text-center navbar-expand-md center ml-auto">
+                <ul class="navbar-nav navbar-collapse collapse" id="navcontent">
+                  <li>
+                    <a class="text-white nav-item nav-link" href="#">COURSES</a>
+                  </li>
+                  <li>
+                    <a class="text-white nav-item nav-link" href="#">PRICING</a>
+                  </li>
+                  <li>
+                    <a class="text-white nav-item nav-link" href="#">LOGIN</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+
+	  <div class="container-fluid padding">
+	    <div class="row text-center mt-5 py-5">
+              <div class="col-12">
+                <h3 class="font-weight-bold">« Don't cry because it's over.</h3>
+                <h3 class="font-weight-bold"><span class="purple">Smile</span> because it happened. » </h3>
+              </div>
             </div>
-          </nav>
+          </div>
         </div>
-
-	<div class="container-fluid padding">
-	  <div class="row text-center mt-5 py-5">
-            <div class="col-12">
-              <h3 class="font-weight-bold">« Don't cry because it's over.</h3>
-              <h3 class="font-weight-bold"><span class="purple">Smile</span> because it happened. » </h3>
+	<main id="courses">
+          <!-- Search Bar -->
+          <div class="container-fluid searchbar">
+            <div class="row p-3 mx-auto">
+              <div class="col-4">
+                <h5>Keywords</h5>
+	 	<input class="form-control" type="text" placeholder="Search for keywords">
+              </div>
+              <div class="col-4">
+		<div class="form-group">
+		  <label for="exampleFormControlSelect1">Topics</label>
+		  <select class="form-control" id="exampleFormControlSelect1">
+		    <option>Novice</option>
+		    <option>2</option>
+		    <option>3</option>
+		    <option>4</option>
+		    <option>5</option>
+		  </select>
+		</div>
+              </div>
+              <div class="col-4">
+		<div class="form-group">
+		  <label for="exampleFormControlSelect1">Sort by</label>
+		  <select class="form-control" id="exampleFormControlSelect1">
+		    <option>Most Popular</option>
+		    <option>2</option>
+		    <option>3</option>
+		    <option>4</option>
+		    <option>5</option>
+		  </select>
+		</div>
+              </div>
             </div>
           </div>
-        </div>
+        </main>
 
-      <!-- Search Bar -->
-      <div class="container-fluid searchbar">
-        <div class="row p-3 mx-auto">
-          <div class="col-4 text-center">
-            <h5>Keywords</h5>
-            <div class="input-group rounded">
-              <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-            </div> 
-          </div>
-          <div class="col-4 text-center">
-            <h5>Topics</h5>
-    <div class="dropdown mx-auto">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Novice</a>
-        <div class="dropdown-menu dropdown-menu-right">
-        </div>
-    </div>
-          </div>
-          <div class="col-4 text-center">
-            <h5>Sort By</h5>
-    <div class="dropdown mx-auto">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Most Popular</a>
-        <div class="dropdown-menu dropdown-menu-right">
-        </div>
-          </div>
-    </div>
-        </div>
-      </div>
-
+      </wrapper>
       <!-- JS -->
       <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-    </body>
-</html>
+</body></html>
